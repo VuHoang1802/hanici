@@ -1,0 +1,95 @@
+.textblack {
+  color: #000; }
+
+.headertext .text {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .headertext .text p, .headertext .text i {
+    float: left; }
+  .headertext .text i {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px; }
+.headertext .dichvu .n1 {
+  background: #fff url("../image/35.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 290px; }
+  .headertext .dichvu .n1 i {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    z-index: 2000; }
+  .headertext .dichvu .n1 h3 {
+    text-transform: uppercase;
+    text-align: center; }
+  .headertext .dichvu .n1 p {
+    text-align: justify; }
+  .headertext .dichvu .n1 div {
+    position: absolute;
+    top: 0px;
+    right: 0px; }
+  .headertext .dichvu .n1 .opacity {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    background-color: #322072;
+    position: absolute;
+    opacity: 0.9;
+    height: 290px; }
+  .headertext .dichvu .n1 .bg {
+    width: 100%;
+    height: 100%;
+    top: 10%; }
+  .headertext .dichvu .n1:hover .opacity {
+    opacity: 1; }
+
+.lienhe {
+  background-color: #322072;
+  /* enable absolute positioning */
+  /* style icon */
+  /* align icon */
+  /* add padding  */ }
+  .lienhe div {
+    display: block; }
+  .lienhe .textheader hr {
+    border: 1px solid #fff;
+    width: 8%; }
+  .lienhe .inner-addon {
+    position: relative; }
+  .lienhe .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none; }
+  .lienhe .left-addon .glyphicon {
+    left: 15px;
+    color: #fff; }
+  .lienhe .right-addon .glyphicon {
+    right: 0px; }
+  .lienhe input, .lienhe textarea {
+    padding-left: 60px;
+    background-color: #473780;
+    border: none;
+    margin-top: 15px;
+    height: 40px; }
+  .lienhe input, .lienhe textarea {
+    padding-right: 30px; }
+  .lienhe textarea {
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    padding-bottom: 15px; }
+  .lienhe .textarea i {
+    margin-top: 15px; }
+  .lienhe button {
+    width: 100%;
+    height: 40px;
+    background-color: #f7941d;
+    border: none; }
+
+footer {
+  background-color: #fff; }
+
+/*# sourceMappingURL=newsCss.css.map */

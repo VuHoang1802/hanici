@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=vietnamese");
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.textcolor {
+  color: #fff; }
+
+h3 {
+  text-transform: uppercase; }
+
+.span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px; }
+
+.navbar {
+  background-color: #322072;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  z-index: 200; }
+  .navbar .container-fluid {
+    margin-top: 15px; }
+  .navbar .logo {
+    margin-top: -10px;
+    padding-left: 70px; }
+  .navbar .nav {
+    margin-left: 200px; }
+    .navbar .nav .active {
+      background: none; }
+      .navbar .nav .active a {
+        background: none;
+        box-shadow: none;
+        color: #eee01f; }
+        .navbar .nav .active a:hover {
+          background: none; }
+    .navbar .nav li {
+      background: none; }
+      .navbar .nav li .menuchlid {
+        background-color: #fff;
+        padding: 10px;
+        list-style: none; }
+  .navbar .search .search-header {
+    background-color: #271957;
+    border: none; }
+  .navbar .search .btn-search {
+    background: none;
+    border: none;
+    color: #fff;
+    margin-left: -30px; }
+
+.navbar-inverse {
+  background-image: none; }
+
+.slider {
+  position: relative; }
+  .slider .btn-move {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.box div {
+  background-color: #533ca8;
+  height: 145px;
+  padding-top: 20px; }
+  .box div i {
+    font-size: 30px;
+    color: #fff;
+    text-align: right;
+    margin-top: 30px; }
+  .box div span {
+    font-size: 14px;
+    margin-top: 30px; }
+
+.gioithieu .content {
+  margin-top: 20px; }
+  .gioithieu .content hr {
+    width: 20%;
+    border: 1px solid #41357f; }
+
+.duan {
+  position: relative;
+  overflow: hidden; }
+  .duan .headerText {
+    padding-bottom: 20px; }
+  .duan h3 {
+    text-align: center; }
+  .duan hr {
+    margin: 0px auto;
+    width: 10%;
+    border: 1px solid #41357f; }
+  .duan .tintuc:hover .panel {
+    display: block; }
+  .duan .panel {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    padding-bottom: 15px;
+    background: none;
+    display: none; }
+    .duan .panel .opacity {
+      position: absolute;
+      top: 10%;
+      width: 100%;
+      height: 70px;
+      background-color: #41357f;
+      opacity: 0.6; }
+    .duan .panel .TextHeader {
+      position: absolute;
+      z-index: 20; }
+      .duan .panel .TextHeader h5, .duan .panel .TextHeader p {
+        color: #fff;
+        margin-left: 10px; }
+      .duan .panel .TextHeader h5 {
+        margin-bottom: 0px;
+        text-transform: uppercase; }
+
+.news {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  .news .gach {
+    width: 20%;
+    border: 1px solid #41357f; }
+  .news div hr {
+    width: 100%; }
+  .news p {
+    width: 100%; }
+  .news .info div ul li {
+    margin-top: 20px; }
+    .news .info div ul li a {
+      color: #000; }
+      .news .info div ul li a:hover {
+        text-decoration: none; }
+
+footer {
+  background-color: #322072; }
+  footer div {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    footer div img {
+      margin-top: 40px; }
+
+/*# sourceMappingURL=indexCss.css.map */
